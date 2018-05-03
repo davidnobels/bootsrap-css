@@ -1,0 +1,53 @@
+.form{
+	float: right;
+	margin-top: 10px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+
+}
+@media (min-width: 1200px){
+	.flex-container{
+		width: 1200px;
+	}
+}
+.flex-item{
+	background-color: transparent;
+	display: flex;
+	height: 185px;
+	margin:5px;
+}
+
+.item9{
+	-webkit-align-self:stretch;
+	align-self: stretch;
+}
+.navbar ul{
+	float: right;
+}
+.navbar ul li a{
+ color:grey;
+
+}
+
+.navbar ul li a:hover{
+	background: red;
+	color: white;
+}
+
+.form{
+
+}
+
+.form a{
+	color: grey;
+	text-decoration: none;
+}
+
+.form a:hover{
+  font-weight: bold;
+}
